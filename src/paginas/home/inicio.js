@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, SafeAreaView } from 'react-native';
+import { View, Text, SafeAreaView, ScrollView } from 'react-native';
 import inicioEstilo from './estiloInicio';
 import Carrosel from '../../componentes/carrossel/carrosel.js';
 import Card from '../../componentes/cards/cards.js';

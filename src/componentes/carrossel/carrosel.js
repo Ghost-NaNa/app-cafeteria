@@ -18,7 +18,7 @@ const Carrosel = () => {
                 pagingEnabled
                 mode="parallax" // nunca foi tão fácil centralizar algo
                 modeConfig={{
-                    parallaxScrollingScale: .96,
+                    parallaxScrollingScale: .95,
                     parallaxScrollingOffset: 50,
                     parallaxAdjacentItemScale: .7,
                 }}

@@ -4,7 +4,7 @@ const { width } = Dimensions.get('window');
 
 const estiloCarrosel = StyleSheet.create({
     container: {
-        height: 'auto'
+        width: width
     },
     item: {
         width: width,
@@ -12,17 +12,15 @@ const estiloCarrosel = StyleSheet.create({
         padding: 10,
         borderRadius: 15,
         overflow: 'hidden',        
-        elevation: 5,
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.2,
-        shadowRadius: 8,
+        elevation: 5
     },
     imagemFundo: {
         flex: 1,
     },
     overlay: {
         ...StyleSheet.absoluteFillObject,
+        height: 250,
+        width: width,
         backgroundColor: 'rgba(0, 0, 0, 0.35)',
         borderRadius: 15,
     },

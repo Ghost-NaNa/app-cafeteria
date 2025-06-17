@@ -5,11 +5,10 @@ import { StyleSheet } from "react-native";
 const inicioEstilo = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#080202'
+        backgroundColor: '#331B13'
     },
     cafes: {
-        paddingTop: 10,
-        paddingHorizontal: 6
+        paddingTop: 10
     },
     tituloContainer: {
         width: "100%",
