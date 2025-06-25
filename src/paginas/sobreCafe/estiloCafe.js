@@ -45,15 +45,15 @@ const estiloCafe = StyleSheet.create({
         justifyContent: 'center', // Centraliza o bloco de preço
     },
     labelPreco: {
-        fontSize: 18,
-        color: '#7F8C8D', // Um cinza mais suave para o label
+        fontSize: 28,
+        color: '#0D0E1C', // Um cinza mais suave para o label
         fontWeight: '500',
         marginRight: 8,
     },
     valorPreco: {
-        fontSize: 28, // Preço maior e mais impactante
+        fontSize: 23, // Preço maior e mais impactante
         fontWeight: 'bold',
-        color: '#E67E22', // Um tom de laranja/cobre para o preço
+        color: '#0D0E1C'    
     },
     secaoDescricao: {
         width: '100%',
@@ -61,14 +61,24 @@ const estiloCafe = StyleSheet.create({
     labelDescricao: {
         fontSize: 18,
         fontWeight: 'bold',
-        color: '#34495E', // Cor mais escura para o label da descrição
+        color: '#3B2F2F', // Cor mais escura para o label da descrição
         marginBottom: 10,
     },
     textoDescricao: {
-        fontSize: 16,
-        color: '#555555',
+        fontSize: 20,
+        color: '#0D0E1C',
         lineHeight: 25,
         textAlign: 'justify',
+    },
+    btn: {
+        backgroundColor: '#123',
+        marginTop: 13,
+        padding: 14,
+        alignItems: "center",
+        borderRadius: 15,
+        width: 418,
+        backgroundColor: "#382C2C",
+        color: "#F0E1D0"
     },
 })
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRoute } from '@react-navigation/native';
-import { View, Text, SafeAreaView, Image, ScrollView, StyleSheet } from 'react-native'; // Adicionamos StyleSheet para estiloCafe inline simples
+import { View, Text, SafeAreaView, Image, ScrollView, TouchableOpacity } from 'react-native'; // Adicionamos StyleSheet para estiloCafe inline simples
 import estiloCafe from './estiloCafe.js';
 
 export default function SobreCafe() {
@@ -24,6 +24,12 @@ export default function SobreCafe() {
                         <Text style={estiloCafe.labelDescricao}>Descrição:</Text>
                         <Text style={estiloCafe.textoDescricao}>{descricao}</Text>
                     </View>
+                </View>
+
+                <View>
+                    <TouchableOpacity style={estiloCafe.btn}> 
+                        Peça já!
+                    </TouchableOpacity>
                 </View>
             </ScrollView>
         </SafeAreaView>
